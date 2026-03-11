@@ -12,7 +12,9 @@ const config: Config = {
     container: {
       center: true,
       padding: '2rem',
-      screens: { '2xl': '1400px' },
+      screens: {
+        '2xl': '1400px',
+      },
     },
     extend: {
       colors: {
@@ -40,6 +42,10 @@ const config: Config = {
         accent: {
           DEFAULT: 'hsl(var(--accent))',
           foreground: 'hsl(var(--accent-foreground))',
+        },
+        popover: {
+          DEFAULT: 'hsl(var(--popover))',
+          foreground: 'hsl(var(--popover-foreground))',
         },
         card: {
           DEFAULT: 'hsl(var(--card))',
